@@ -1,0 +1,2 @@
+# print output "STOCK DATA Visualizer"
+print("Stock Data Visualizer\n-------------------\n\n")
