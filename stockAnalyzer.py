@@ -66,7 +66,7 @@ def main():
         print("Error:", e)
         return
 
-    closing_prices = fetch_stock_data(stock_symbol, time_series, start_date, end_date)
+    closing_prices = get_stock_data(stock_symbol, time_series, start_date, end_date)
     plot_stock_chart(stock_symbol, chart_type, closing_prices)
 
 if __name__ == "__main__":
